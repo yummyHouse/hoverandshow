@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO藏字</title>
+    <style>
+        *{
+            
+            transition: .3s;
+        }
+        .case{
+            width: 300px;
+            height: 200px;
+            position: relative;
+            margin-top: 10px;
+        }
+
+        .caseImg {
+            width: 300px;
+            height: 200px;            
+            position: absolute;
+        }
+
+        .caseIntro {
+            width: 300px;
+            height: 200px;
+            background-color: rgb(0, 0, 0,.5);
+            color: #fff;
+            display: none;
+            position: absolute;
+        }
+
+        .case:hover .caseIntro  {
+            display: block;            
+        }
+    </style>
+
+</head>
+
+<body>
+    <div style="width: 800px; margin: 0 auto;">
+        <div class="case">
+            <img class="caseImg" src="./img/cat.jpg" alt="">
+            <div class="caseIntro">我是文字我是文字我是文字我是文字我是文字</div>
+        </div> 
+        <div class="case">
+            <img class="caseImg" src="./img/cat2.jpg" alt="">
+            <div class="caseIntro">歪頭貓</div>
+        </div>
+        <div class="case">
+            <img class="caseImg" src="./img/cat3.jpg" alt="">
+            <div class="caseIntro">望遠貓</div>
+        </div>
+    </div>
+   
+
+</body>
+
+</html>
